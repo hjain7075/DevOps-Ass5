@@ -8,7 +8,7 @@ stage('Build') {
 
 steps {
 
-bat 'javac HelloWorld.java'
+bat 'javac Main.java'
   bat 'java -version'
 
 }
@@ -19,7 +19,7 @@ stage('Run') {
 
 steps {
 
-bat 'java HelloWorld'
+bat 'java Main'
 }
 }
 }
